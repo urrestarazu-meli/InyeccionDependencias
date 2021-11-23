@@ -4,6 +4,7 @@ import inyeccion.entities.TiposVehiculos;
 import inyeccion.entities.Vehiculo;
 
 public interface FabricaVehiculosService {
+
     int getContadorProduccion();
 
     Vehiculo fabricarAuto();
